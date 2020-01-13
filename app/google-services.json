@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "809515804124",
+    "firebase_url": "https://digitalmess-b7791.firebaseio.com",
+    "project_id": "digitalmess-b7791",
+    "storage_bucket": "digitalmess-b7791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809515804124:android:7f18bf51aa0443fd",
+        "android_client_info": {
+          "package_name": "com.example.dipto.digitalmess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809515804124-kfa11b6qcvv62sl8gip7g1kakffoqo7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dipto.digitalmess",
+            "certificate_hash": "82493d4b0405bef38f906da2d826e6227acdce6b"
+          }
+        },
+        {
+          "client_id": "809515804124-kvcibihv5j78cfmofm3ncr2uvb0jbucc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmXqQC7xN5hYTIL3pmzgD_JRjUQwasV7M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809515804124-kvcibihv5j78cfmofm3ncr2uvb0jbucc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

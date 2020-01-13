@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add Member"
+        android:id="@+id/add_member_id"
+            />
+    <item android:title="Mess Structure"
+          android:id="@+id/mess_structure_id"
+            />
+    <item android:title="Meal Chart"
+          android:id="@+id/meal_chart_id"
+            />
+    <item android:title="View Total Bazar"
+          android:id="@+id/view_total_bazar_id"
+            />
+    <item android:title="Bazar Order"
+          android:id="@+id/bazar_order_id"
+            />
+    <item android:title="Mess Info"
+          android:id="@+id/mess_info_id"
+            />
+    <item android:title="Calculation"
+          android:id="@+id/calculation_id"
+            />
+    <item android:title="Settings"
+          android:id="@+id/settings_id"
+            />
+    <item android:title="Logout"
+          android:id="@+id/logout_id"
+            />
+</menu>

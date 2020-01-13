@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_create__id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.dipto.digitalmess.Create_Id"
+        >
+    <TextView
+            android:id="@+id/account_create_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Created"
+            android:layout_centerInParent="true"
+            android:textSize="35sp"
+            android:layout_margin="40dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            />
+    <TextView
+            android:id="@+id/createmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your ID Is"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            />
+    <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/createmsg"
+            android:layout_centerInParent="true"
+            />
+    <Button
+            android:id="@+id/next_button_after_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="Next"
+            android:onClick="clickedOnNext"
+            android:layout_marginBottom="80dp"
+            />
+    <TextView
+            android:id="@+id/user_full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_below="@+id/account_create_text"
+            android:layout_centerInParent="true"
+
+            />
+
+</RelativeLayout>
